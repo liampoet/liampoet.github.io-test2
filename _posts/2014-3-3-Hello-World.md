@@ -45,6 +45,7 @@ if result['status'] is 200:
         if verify_result['data']['status'] is 1 and verify_result['data']['price'] is price:
             # TODO: 이곳이 상품 지급 혹은 결제 완료 처리를 하는 로직으로 사용하면 됩니다.
 ```
+
 이것만 작성하면 매우 간단하게 결제 검증을 끝낼 수 있다. 필자는 웹결제가 없었기 떄문에 앱에서 결제 후 서버사이드에서 결제 검증만 진행했다. 
 application_id와 private_key는 부트페이 관리자에서 확인할 수 있다. 
 또한 위 코드와 같이 결제 금액으로 비교를 해주면 되는데, 가격말고도 원하는 다른 데이터를 추가로 비교할 수 도있다.
