@@ -18,11 +18,11 @@ BootPay는 무료로 서비스되는 결제검증API이다.
 1. Lambda layer생성
 [부트페이 결제 및 취소 모듈(python)](https://github.com/bootpay/server_python)
 부트페이 모듈을 다운 받은 뒤, Lambda layer를 생성해준다.
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/Lambda_layer.png)
 
 2. Add a layer
 생성한 부트페이 layer를 Lambda함수에 추가해준다.
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/Add_layer.png)
 ```py
 from lib.BootpayApi import BootpayApi
 ```
