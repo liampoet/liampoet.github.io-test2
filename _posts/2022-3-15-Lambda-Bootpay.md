@@ -40,6 +40,7 @@ from lib.BootpayApi import BootpayApi
 <br>
 <br>
 ### 3. 검증 코드 작성하기
+<br>
 ```py
 from lib.BootpayApi import BootpayApi
 
