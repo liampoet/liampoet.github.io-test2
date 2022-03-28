@@ -25,7 +25,7 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 ### 1. Lambda layer생성
 ---------------------------------------
 
-[Bootpay 결제 및 취소 모듈(python)](https://github.com/bootpay/server_python)
+[Bootpay 결제검증 및 취소 모듈(python)](https://github.com/bootpay/server_python)
 
 ![_config.yml]({{ site.baseurl }}/images/Lambda_layer.png)
 <br>
