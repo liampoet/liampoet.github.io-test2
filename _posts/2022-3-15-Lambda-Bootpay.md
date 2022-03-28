@@ -34,14 +34,14 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 
 ![_config.yml]({{ site.baseurl }}/images/Add_layer.png)
 
-```py
+```
 from lib.BootpayApi import BootpayApi
 ```
 <br>
 <br>
 ### 3. 검증 코드 작성하기
 <br>
-```py
+```
 from lib.BootpayApi import BootpayApi
 
 bootpay = BootpayApi(
