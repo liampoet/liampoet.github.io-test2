@@ -27,9 +27,9 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 
 [부트페이 결제 및 취소 모듈(python)](https://github.com/bootpay/server_python)
 
-부트페이 모듈을 다운 받은 뒤, Lambda layer를 생성해준다.
-
 ![_config.yml]({{ site.baseurl }}/images/Lambda_layer.png)
+<br>
+부트페이 모듈을 다운 받은 뒤, Lambda layer를 생성해준다.
 <br>
 <br>
 ### 2. Add a layer
@@ -45,23 +45,7 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 ### 3. 검증코드 작성하기
 ---------------------------------------
 
-```python
-from lib.BootpayApi import BootpayApi
-
-bootpay = BootpayApi(
-    '[[ application_id ]]',
-    '[[ private_key ]]'
-)
-
-result = bootpay.get_access_token()
-if result['status'] is 200:
-    verify_result = bootpay.verify('[[ receipt_id ]]')
-    if verify_result['status'] is 200:
-        # 원래 주문했던 금액이 일치하는가?
-        # 그리고 결제 상태가 완료 상태인가?
-        if verify_result['data']['status'] is 1 and verify_result['data']['price'] is price:
-            # TODO: 이곳이 상품 지급 혹은 결제 완료 처리를 하는 로직으로 사용하면 됩니다.
-```
+<script src="https://gist.github.com/liampoet/1411491dd7db55df67987bb9327c4d15.js"></script>
 
 이것만 작성하면 매우 간단하게 결제 검증을 끝낼 수 있다.<br>
 필자는 웹결제가 없었기 떄문에 앱에서 결제 후 서버사이드에서 결제 검증만 진행했다.<br>
@@ -71,33 +55,7 @@ application_id와 private_key는 부트페이 관리자에서 확인할 수 있�
 
 * 검증결과
 
-```json
-{
-  "status": 200,
-  "code": 0,
-  "message": "",
-  "data": {
-    "receipt_id": "5afd6be8e13f33616f2876ac",
-    "order_id": "1526557671321",
-    "name": "테스트음식",
-    "price": 3000,
-    "unit": "krw",
-    "pg": "kcp",
-    "method": "card",
-    "pg_name": "KCP",
-    "method_name": "카드결제",
-    "payment_data": {
-      "card_name": "BC카드",
-      ...,
-      "s": 1,
-      "g": 2
-    },
-    "requested_at": "2018-05-17 20:47:52",
-    "purchased_at": "2018-05-17 20:48:53",
-    "status": 1
-  }
-}
-```
+<script src="https://gist.github.com/liampoet/090c67f98babb85aa1eb85d222a9b37c.js"></script>
 <br>
 결제가 완료되면 "s"값이 1이나온다.<br>
 "status"의 경우 현재 결제의 상태를 보여주는데, 다음과 같이 나타낼 수 있다.
