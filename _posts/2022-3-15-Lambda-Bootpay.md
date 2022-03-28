@@ -40,7 +40,7 @@ from lib.BootpayApi import BootpayApi
 <br>
 <br>
 ### 3. 검증 코드 작성하기
-<pre><code>
+```py
 from lib.BootpayApi import BootpayApi
 
 bootpay = BootpayApi(
@@ -56,7 +56,7 @@ if result['status'] is 200:
         # 그리고 결제 상태가 완료 상태인가?
         if verify_result['data']['status'] is 1 and verify_result['data']['price'] is price:
             # TODO: 이곳이 상품 지급 혹은 결제 완료 처리를 하는 로직으로 사용하면 됩니다.
-<pre><code>
+```
 
 이것만 작성하면 매우 간단하게 결제 검증을 끝낼 수 있다.<br>
 필자는 웹결제가 없었기 떄문에 앱에서 결제 후 서버사이드에서 결제 검증만 진행했다.<br>
