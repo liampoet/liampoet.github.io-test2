@@ -40,10 +40,8 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 생성한 부트페이 layer를 Lambda함수에 추가해준다.
 
 ![_config.yml]({{ site.baseurl }}/images/Add_layer.png)
-
-```python
-from lib.BootpayApi import BootpayApi
-```
+<br>
+<script src="https://gist.github.com/liampoet/68ee37108f40218d4bb02569760f9770.js"></script>
 <br>
 <br>
 ### 3. 검증코드 작성하기
