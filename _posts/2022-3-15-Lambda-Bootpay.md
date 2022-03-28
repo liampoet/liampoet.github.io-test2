@@ -34,7 +34,7 @@ BootPay는 무료로 서비스되는 결제검증API이다.<br>
 
 ![_config.yml]({{ site.baseurl }}/images/Add_layer.png)
 
-```
+```py
 from lib.BootpayApi import BootpayApi
 ```
 <br>
@@ -92,7 +92,7 @@ application_id와 private_key는 부트페이 관리자에서 확인할 수 있�
     "status": 1
   }
 }
-```
+```py
 <br>
 결제가 완료되면 "s"값이 1이나온다.<br>
 "status"의 경우 현재 결제의 상태를 보여주는데, 다음과 같이 나타낼 수 있다.
