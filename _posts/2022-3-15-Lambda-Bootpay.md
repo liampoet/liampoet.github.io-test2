@@ -43,10 +43,9 @@ from lib.BootpayApi import BootpayApi
 ```
 <br>
 <br>
-### 3. 검증 코드 작성하기
+### 3. 검증코드 작성하기
 ---------------------------------------
 
-<br>
 ```python
 from lib.BootpayApi import BootpayApi
 
@@ -70,6 +69,7 @@ if result['status'] is 200:
 application_id와 private_key는 부트페이 관리자에서 확인할 수 있다.<br>
 또한 위 코드와 같이 결제 금액으로 비교를 해주면 되는데, 가격말고도 원하는 다른 데이터를 추가로 비교할 수 도있다<br>
 <br>
+
 * 검증결과
 
 ```json
