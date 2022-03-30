@@ -6,6 +6,7 @@ tags: [Git, FastAPI, pydantic, sqlalchemy]
 ---
 FastAPI로 관리자 웹을 만들다가 기존에 연결해 두었던 DB에 한개를 추가로 더 연결해야하는 상황이 생겼다.생각보다 reference가 많이 없었는데, FastAPI의 제작자이신 [tiangolo](https://github.com/tiangolo/fastapi/issues/2592)님의 issues에서 이 문제를 찾을 수 있었다.<br>
 Multipledatabases에 대해 다양한분들의 의견이 잘 정리되어있어서 이를 나의 FastAPI에 적용해보았다.
+
 <br>
 <br>
 ### 1. settings.py
