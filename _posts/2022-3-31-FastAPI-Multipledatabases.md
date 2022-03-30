@@ -14,7 +14,7 @@ Multipledatabases에 대해 다양한분들의 의견이 잘 정리되어있어�
 ### 1. settings.py
 ---------------------------------------
 
-<script src="https://gist.github.com/liampoet/68ee37108f40218d4bb02569760f9770.js"></script>
+<script src="https://gist.github.com/liampoet/7db7cc280b3a03655e611a814a112062.js"></script>
 
 [pydantic - BaseSettings](https://pydantic-docs.helpmanual.io/usage/settings/)
 [FastAPI - pydantic BaseSettings예제](https://fastapi.tiangolo.com/advanced/settings/)
@@ -28,12 +28,18 @@ LRU(Least Recently Used)캐싱을 사용하기위해 @lru_cache를 사용했다.
 ### 2. database.py
 ---------------------------------------
 
-<script src="https://gist.github.com/liampoet/68ee37108f40218d4bb02569760f9770.js"></script>
+<script src="https://gist.github.com/liampoet/ba25801f94f48afd1549c81a067be4f3.js"></script>
 <br>
 <br>
 ### 3. model.py
 ---------------------------------------
 
-<script src="https://gist.github.com/liampoet/1411491dd7db55df67987bb9327c4d15.js"></script>
+<script src="https://gist.github.com/liampoet/28401f8a253f048b8be2665bbdcf68f0.js"></script>
+<br>
+<br>
+### 4. route.py
+---------------------------------------
 
+<script src="https://gist.github.com/liampoet/59c6d958cbc4e968ccf0b0634ccdabfd.js"></script><br>
+<br>
 
