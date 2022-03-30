@@ -41,7 +41,6 @@ SqlAlchemy은 강버섯님의 블로그에 간단하고 쉽게 연결방법이 �
 ---------------------------------------
 
 <script src="https://gist.github.com/liampoet/59c6d958cbc4e968ccf0b0634ccdabfd.js"></script><br>
-<br>
 
 이렇게만 설정을 해주면 간단하게 2개 이상의 DB를 연결할 수 있다.! 전체적인 코드는 아래 링크에서 확인할 수 있다.<br>
 [FastAPI-Multipledatabases](https://github.com/liampoet/FastAPI-multiple_databases.git)
