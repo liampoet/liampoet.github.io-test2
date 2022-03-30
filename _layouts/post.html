@@ -8,6 +8,15 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  <script src="https://utteranc.es/client.js"
+        repo="liampoet / blog-comments"
+        issue-term="[ENTER TERM HERE]"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
