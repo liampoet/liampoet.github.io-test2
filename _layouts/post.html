@@ -9,6 +9,10 @@ layout: default
     {{ content }}
   </div>
   
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  
   <script src="https://utteranc.es/client.js"
         repo="liampoet/blog-comments"
         issue-term="pathname"
@@ -17,10 +21,6 @@ layout: default
         crossorigin="anonymous"
         async>
   </script>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
 
   {% include disqus.html %}
 </article>
