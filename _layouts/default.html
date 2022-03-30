@@ -16,6 +16,8 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v13.0" nonce="19Hgm8Sa"></script>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -37,6 +39,12 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+    </div>
+    
+    <div    class="fb-comments" 
+        data-href='"{{ site.baseurl | append: page.url }}"'
+        data-width="100%" 
+        data-numposts="5">
     </div>
 
     <div class="wrapper-footer">
