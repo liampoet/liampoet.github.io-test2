@@ -9,8 +9,8 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       
       <div class="tag">
-        {% if page.tags %}
-          {% for tag in page.tags %}
+        {% if post.tags %}
+          {% for tag in post.tags %}
             <span class="tag">{{ tag }}</span>
           {% endfor %}
         {% endif %}
@@ -21,7 +21,7 @@ layout: default
       </div>
       
       <div class="date">
-        Written on {{ page.date | date: "%B %e, %Y" }}
+        Written on {{ post.date | date: "%B %e, %Y" }}
       </div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
