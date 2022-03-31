@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FastAPI에 2개 이상의 DB연동하기 - 1
+title: FastAPI에 2개 이상의 DB연동하기
 category: Blog
 tags: [Git, FastAPI, pydantic, sqlalchemy]
 ---
