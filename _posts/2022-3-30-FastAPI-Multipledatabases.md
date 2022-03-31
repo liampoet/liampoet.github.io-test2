@@ -40,22 +40,18 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 <br>
 <br>
 2. **database.py**
----------------------------------------
 <script src="https://gist.github.com/liampoet/ba25801f94f48afd1549c81a067be4f3.js"></script>
 **sqlalchemy** :<br>
 - SQL 문법 없이 개발 중인 언어로 데이터베이스에 접근할 수 있게 해주는 라이브러를 **ORM(Object Relational Mapping)** 이라고 한다. 그 중에서도 **sqlalchemy**은 python의 대표적인 ORM이다.
 <br>
 <br>
 3. **model.py** 
----------------------------------------
 <script src="https://gist.github.com/liampoet/28401f8a253f048b8be2665bbdcf68f0.js"></script>
 <br>
 <br>
 4. **route.py**
----------------------------------------
-
 <script src="https://gist.github.com/liampoet/59c6d958cbc4e968ccf0b0634ccdabfd.js"></script><br>
-
+<br>
 이렇게만 설정을 해주면 간단하게 2개 이상의 DB를 연결할 수 있다.! 전체적인 코드는 아래 링크에서 확인할 수 있다.<br>
 [https://github.com/liampoet/FastAPI-multiple_databases.git](https://github.com/liampoet/FastAPI-multiple_databases.git)
 
