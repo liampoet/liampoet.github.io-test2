@@ -270,17 +270,19 @@ nav {
     font-size: 15px;
   }
   .tag-button{ 
-    border-top-right-radius: 5px; 
-    border-bottom-right-radius: 5px; 
-    margin-left:-3px; 
-    .btn_group button{ 
-  	border: 1px solid skyblue; 
-	background-color: rgba(0,0,0,0); 
-	color: skyblue; padding: 5px; } 
-    .btn_group button:hover{ 
-	color:white; 
-	background-color: skyblue; }
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    margin-left:-3px;
   }
+  .tag-button .tags-button{ 
+    border: 1px solid skyblue; 
+    background-color: rgba(0,0,0,0); 
+    color: skyblue; padding: 5px; 
+  } 
+  .tag-button .tags-button:hover{ 
+    color:white;
+  }
+
 }
 
 .wrapper-footer {
