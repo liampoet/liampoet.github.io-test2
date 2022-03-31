@@ -270,19 +270,20 @@ nav {
     font-size: 15px;
   }
   .tag-button{ 
-    border-radius: 40px; 
+    border-radius: 20px; 
     margin-left:-3px;
   }
   .tag-button .tags-button{ 
     border: 1px solid #9400D3; 
+    border-radius: 20px; 
     background-color: rgba(0,0,0,0); 
-    color: #9400D3; padding: 5px; 
+    color: #9400D3; 
+    padding: 5px; 
   } 
   .tag-button .tags-button:hover{ 
-    color: #9400D3;
+    color: rgba(0,0,0,0);
     background-color: #9400D3;
   }
-
 }
 
 .wrapper-footer {
