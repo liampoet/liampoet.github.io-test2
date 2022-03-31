@@ -270,8 +270,7 @@ nav {
     font-size: 15px;
   }
   .tag-button{ 
-    border-top-right-radius: 10px; 
-    border-bottom-right-radius: 10px; 
+    border-radius: 20px; 
     margin-left:-3px;
   }
   .tag-button .tags-button{ 
@@ -280,7 +279,8 @@ nav {
     color: skyblue; padding: 5px; 
   } 
   .tag-button .tags-button:hover{ 
-    color:white;
+    color: white;
+    background-color: skyblue;
   }
 
 }
