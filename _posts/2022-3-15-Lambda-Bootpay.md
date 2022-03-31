@@ -26,14 +26,18 @@ tags: [Git, AWS Lambda, Bootpay]
 
 ### 1. Lambda layer생성
 ![_config.yml]({{ site.baseurl }}/images/Lambda_layer.png)
+
 [Bootpay 결제검증 및 취소 모듈(python)](https://github.com/bootpay/server_python)을 다운 받은 뒤, Lambda layer를 생성해준다.
 <br>
 <br>
 ### 2. Add a layer
+
 생성한 Bootpay layer를 Lambda함수에 추가해준다.
 
 ![_config.yml]({{ site.baseurl }}/images/Add_layer.png)
+
 그리고 import해준다.
+
 <script src="https://gist.github.com/liampoet/68ee37108f40218d4bb02569760f9770.js"></script>
 <br>
 <br>
