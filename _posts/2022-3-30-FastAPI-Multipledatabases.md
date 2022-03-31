@@ -34,7 +34,6 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 ---------------------------------------
 1. **settings.py**
 <script src="https://gist.github.com/liampoet/7db7cc280b3a03655e611a814a112062.js"></script>
-
 **functools - @lru_cache** :<br> 
 - LRU(Least Recently Used)캐싱을 사용하기위해 **@lru_cache**를 사용했다. @lru_cache 데코레이터는 functools 내장 모듈로 부터 불러올 수 있으며, @lru_cache 를 아무 함수 위에 선언하면 사용하면 그 함수에 넘어온 인자를 키(key)로 그리고 함수의 호출 결과를 값(value)으로 LRU캐싱이 적용된다.
 <br>
@@ -54,7 +53,6 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 
 4. **route.py**
 <script src="https://gist.github.com/liampoet/59c6d958cbc4e968ccf0b0634ccdabfd.js"></script><br>
-<br>
 
 이렇게만 설정을 해주면 간단하게 2개 이상의 DB를 연결할 수 있다.! 전체적인 코드는 아래 링크에서 확인할 수 있다.<br>
 
