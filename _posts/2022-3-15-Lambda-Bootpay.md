@@ -55,6 +55,7 @@ application_id와 private_key는 Bootpay 관리자에서 확인할 수 있다.<b
 <br>
 결제가 완료되면 "s"값이 1이나온다.<br>
 "status"의 경우 현재 결제의 상태를 보여주는데, 다음과 같이 나타낼 수 있다.
+
 <br>
 <script src="https://gist.github.com/liampoet/ca6a854498eeb95dccbd2eac2f703c24.js"></script>
 <br>
