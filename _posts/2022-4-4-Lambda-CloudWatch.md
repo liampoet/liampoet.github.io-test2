@@ -36,6 +36,7 @@ tags: [Git, AWS Lambda, AWS CloudWatch, Python]
 ![_config.yml]({{ site.baseurl }}/images/2022-04-04 크론표현식-표.png)
 <br>
 <br>
+
 **크론 표현식 특수문자**
 - * : 모든 값
 - **?** : 특정한 값이 없음 
@@ -47,6 +48,7 @@ tags: [Git, AWS Lambda, AWS CloudWatch, Python]
 - **#** : 몇째주의 무슨 요일을 표현 (예) 3#2 : 2번째주 수요일
 <br>
 <br>
+
 **크론 표현식 예제**
 ![_config.yml]({{ site.baseurl }}/images/2022-04-04 크론표현식-예제.png)
 - 크론 표현식에 대해 공부를 하면서 느낀점은 어느정도만 알면 전혀 어렵지 않다는 점이다. 표를 보고 대충 이해하여 한번만 만들어봐도 다음 부터는 쉽게 만들 수 있다.  
