@@ -32,6 +32,7 @@ tags: [Git, AWS Lambda, AWS CloudWatch, Python]
 - 리눅스/유닉스 크론 표현식에서는 5개의 필드를 사용하고, Quartz 기반의 크론 표현식에서는 7개의 필드를 사용하는 String 문자열이다. 공백으로 구분하고(" ") 각 필드는 앞에서 부터 초, 분, 시, 일, 월, 요일, 년으로 구분된다.
 <br>
 <br>
+
 **크론 표현식 표현**<br>
 ![_config.yml]({{ site.baseurl }}/images/2022-04-04 크론표현식-표.png)
 <br>
