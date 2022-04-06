@@ -3,6 +3,7 @@ layout: post
 title: FastAPI에 2개 이상의 DB연동하기
 category: Blog
 tags: [Git, Python, FastAPI, pydantic, sqlalchemy]
+etc: FastAPI로 관리자 웹을 만들다가 기존에 연결해 두었던 DB에 한개를 추가로 더 연결해야하는 상황이 생겼다.생각보다 reference가 많이 없었는데, FastAPI의 제작자이신 [tiangolo](https://github.com/tiangolo/fastapi/issues/2592)님의 issues에서 이 문제를 찾을 수 있었다.
 ---
 ## 💡 Intro
 - 나는 원래 flask를 주로 사용하는데 지인분의 추천으로 FastAPI를 알게 되었다. FastAPI에서 libuv(node.js 성능의 핵심)를 코어로 사용하는 uvloop가 매력적 이었고, [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html)를 한번 사용해보고싶어서 FastAPI를 처음 사용해보았다.
