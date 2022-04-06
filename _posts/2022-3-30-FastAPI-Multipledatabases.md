@@ -2,7 +2,7 @@
 layout: post
 title: FastAPI에 2개 이상의 DB연동하기
 category: Blog
-tags: [Git, FastAPI, pydantic, sqlalchemy]
+tags: [Git, Python, FastAPI, pydantic, sqlalchemy]
 ---
 ## 💡 Intro
 - 나는 원래 flask를 주로 사용하는데 지인분의 추천으로 FastAPI를 알게 되었다. FastAPI에서 libuv(node.js 성능의 핵심)를 코어로 사용하는 uvloop가 매력적 이었고, [ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html)를 한번 사용해보고싶어서 FastAPI를 처음 사용해보았다.
