@@ -3,6 +3,7 @@ layout: post
 title: AWS Lambda에 Bootpay연동하기 - 결제검증
 category: Blog
 tags: [Git, Python, AWS Lambda, Bootpayapi]
+etc: BootPay는 무료로 서비스되는 결제검증API이다. 초기에 일반 PG사와 별도의 계약없이 개발을 먼저 할 수 있어서, 앱결제가 급하게 필요했던 나는 [BootPay](https://docs.bootpay.co.kr)를 이용하기로 했다.(매우간단하다!)
 ---
 ## 💡 Intro
 - BootPay는 무료로 서비스되는 결제검증API이다. 초기에 일반 PG사와 별도의 계약없이 개발을 먼저 할 수 있어서, 앱결제가 급하게 필요했던 나는 [BootPay](https://docs.bootpay.co.kr)를 이용하기로 했다.(매우간단하다!)
