@@ -3,6 +3,7 @@ layout: post
 title: AWS CloudWatch로 자동 카운트 시스템 개발하기 -1
 category: Blog
 tags: [Git, AWS Lambda, AWS CloudWatch, Python]
+etc: AWS Lambda는 실시간으로 코드를 실행할 수는 있으나, 필요시에만 함수를 실행한다. Lambda에 있는 함수를 자동으로 동작시킬 수 있는 기술을 찾던 중, 나는 Amazon CloudWatch에 있는 EventBridge를 알게되었다.
 ---
 ## 💡 Intro
 - Lambda함수를 이용해 특정시간에 자동으로 카운트를 해야하는 방법이 필요해졌다!
