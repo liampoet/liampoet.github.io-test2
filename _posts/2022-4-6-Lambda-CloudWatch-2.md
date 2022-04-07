@@ -33,6 +33,8 @@ Amazon EventBridge에서 이벤트목록에 규칙을 들어가면 규칙생성�
 원하는 규칙이름을 정하고, 나는 저번 포스트에 공부하였던 Cron식을 사용할 것이기 때문에, 규칙 유형을 일정으로 하고 다음버튼을 클릭한다.
 
 ![_config.yml]({{ site.baseurl }}/images/규칙1.png)
+<br>
+<br>
 
 ***2단계 - 일정 정의***
 
@@ -41,6 +43,8 @@ Amazon EventBridge에서 이벤트목록에 규칙을 들어가면 규칙생성�
 ![_config.yml]({{ site.baseurl }}/images/규칙2 일정패턴.png)
 
 GMT는 그리니치 평균시(Greenwich Mean Time)라고 하는데, 그냥 대한민국 서울의 시간이 필요한 나는 GMT에 9시간을 더한 현지 시간대를 선택했다.
+<br>
+<br>
 
 ***3단계 - 대상 선택***
 
