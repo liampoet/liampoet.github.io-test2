@@ -46,7 +46,7 @@ GMT는 그리니치 평균시(Greenwich Mean Time)라고 하는데, 그냥 대�
 
 대상 유형에는 각각 EventBridge 이벤트 버스, [EventBridge API대상](https://docs.aws.amazon.com/ko_kr/eventbridge/latest/userguide/eb-api-destinations.html), AWS 서비스가 있다. 하나의 event rule에 여러개의 대상이 등록이 가능하며, 나는 Lambda함수에 이벤트를 줄거라서 AWS서비스의 Lambda 항수를 선택했다. 
 
-![_config.yml]({{ site.baseurl }}/images/규칙2-추가설정.png)
+![_config.yml]({{ site.baseurl }}/images/규칙3-추가설정.png)
 
 ![_config.yml]({{ site.baseurl }}/images/규칙5 생성.png)
 
