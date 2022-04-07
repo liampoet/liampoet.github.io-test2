@@ -46,5 +46,6 @@ GMT는 그리니치 평균시(Greenwich Mean Time)라고 하는데, 그냥 대�
 <br>
 <br>
 
-
-https://velog.io/@techy-yunong/AWS-EventBridge-concept
+**[참고자료]**
+- [https://velog.io/@techy-yunong/AWS-EventBridge-concept](https://velog.io/@techy-yunong/AWS-EventBridge-concept)
+- [Amazon EventBridge 이벤트 버스 생성](https://docs.aws.amazon.com/ko_kr/eventbridge/latest/userguide/eb-create-event-bus.html)
