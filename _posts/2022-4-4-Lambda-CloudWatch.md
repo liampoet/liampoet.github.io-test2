@@ -72,5 +72,5 @@ etc: AWS Lambda는 실시간으로 코드를 실행할 수는 있으나, 필요�
 
 
 
-CloudWatch의 EventBridge 생성은 너무 피곤한 관계로 다음 포스팅에 작성을 해보도록 하겠다!😀
+Amazon EventBridge 규칙 생성은 다음 포스팅에 이어서 작성을 해보도록 하겠다.😀
 
