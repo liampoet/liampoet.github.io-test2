@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jQuery 정규식
+title: jQuery 정규식 - [id^=]
 category: Blog
 tags: [Git, Python, javascript, jQuery]
 etc: 관리자페이지 제작 중, 앞부분이 동일한 id로 끝나는 엘리먼트들에 대한 접근을 jQuery로 처리해야하는 상황이 발생해서 여러 정보를 찾다가 jQuery의 id에 대한 정규식을 알게되었다.
