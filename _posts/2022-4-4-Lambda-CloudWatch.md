@@ -61,12 +61,12 @@ etc: AWS Lambda는 실시간으로 코드를 실행할 수는 있으나, 필요�
 
 ## 📚 Lambda 코드 작성
 ---------------------------------------
-### 1. Lambda 함수생성
+### 📗 1. Lambda 함수생성
 ![_config.yml]({{ site.baseurl }}/images/2022-04-04 람다함수생성.png)
 본인이 사용하는 언어를 선택한 후, Lambda 함수를 생성해준다. 그리고 VPC및 함수에 필요한 [Lambda Layer](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/configuration-layers.html)를 설정해준다.
 <br>
 <br>
-### 2. Lambda 코드작성
+### 📕 2. Lambda 코드작성
 자동으로 카운트 해주어야할 데이터를 조건에 따라서 가짓 수를 나누어주었다. 나는 필요에 따라 S3와 RDS를 연결해주었다.  
 <script src="https://gist.github.com/liampoet/fccac1660dbeb09082d2e82bf72fd28a.js"></script>
 
