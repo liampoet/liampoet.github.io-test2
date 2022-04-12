@@ -18,6 +18,8 @@ etc: 관리자페이지 제작 중, 앞부분이 동일한 id로 끝나는 엘�
 - 특정한 규칙을 가진 문자열의 직합을 표현하는데 사용하는 형식 언어를 [정규표현식](https://www.nextree.co.kr/p4327/)이라고 한다.
 - jQuery에도 다양한 search(), replace()등 다양한정규식이 존재하는데, 기초적인 예제는 아래와 같다.
 
+<br>
+
 ***정규표현식 예제***
 
 ![_config.yml]({{ site.baseurl }}/images/정규식예제.png)
@@ -38,7 +40,6 @@ var re = /^[-!#$%& amp;'*+./0-9=?A-Z^_a-z{|}~]+@[-!#$%&'*+/0-9=?A-Z^_a-z{|}~]+.[
 var RegExpHG = "(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/)";  -- 한글 제거  
 var RegExpJS = "<script[^>]*>(.*?)</script>";  -- 스크립트 제거  
 
-
 <br>
 <br>
 <br>
@@ -51,15 +52,22 @@ var RegExpJS = "<script[^>]*>(.*?)</script>";  -- 스크립트 제거
 
 <script src="https://gist.github.com/liampoet/e361f5c097a668e5045376d6c78e7e77.js"></script>
 
+<br>
+
 ***jQuery***
 
 <script src="https://gist.github.com/liampoet/d84a856ed2ecb8775d0ad690581e5a72.js"></script>
+
+<br>
+<br>
 
 ### 📕 2.id가 id_로 끝나는 엘리먼트들 접근
 
 ***Html***
 
 <script src="https://gist.github.com/liampoet/10fa4177bb5c418bc9e8bac58a0f6560.js"></script>
+
+<br>
 
 ***jQuery***
 
