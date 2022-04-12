@@ -12,9 +12,12 @@ Multipledatabases에 대해 다양한분들의 의견이 잘 정리되어있어�
 
 <br>
 <br>
+
 ## 🔎 그전에! FastAPI란? 
 ---------------------------------------
 [공식 문서](https://fastapi.tiangolo.com/)에는 다음과 같이 설명되어져있다.
+
+<br>
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 주요기능:
@@ -28,36 +31,60 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 - Robust: 문서 자동화 및 쉬운 배포가 가능하다.
 - Standards-based: 개방형 API 표준(OpenAPI&JSON)을 기반으로 한다.
 
+<br>
+
 이 뿐만아니라, 현재 아직 많은 레퍼런스가 나와있지는 않지만, 그것을 매꿔줄 매우매우 수준높은 공식문서가 잘 마련되어져있다. 또한 백엔드 엔지니어 입장에서 API를 사용할 수 있도록 만든 문서 작업이 생각보다 많은 시간이 소요되는데, FastAPI는 문서의 자동화를 제공해줌으로써 개발자가 문서 작업에 할애하는 시간을 줄이고, 오직 코드에만 집중하도록 해 업무 효율을 증진 시켜준다!
+
 <br>
 <br>
+
 ## 📚 Multiple databases 설정하기 
 ---------------------------------------
+<br>
+
 1. **settings.py**
+<br>
+
 <script src="https://gist.github.com/liampoet/7db7cc280b3a03655e611a814a112062.js"></script>
+<br>
+
 **functools - @lru_cache** :<br> 
 - LRU(Least Recently Used)캐싱을 사용하기위해 **@lru_cache**를 사용했다. @lru_cache 데코레이터는 functools 내장 모듈로 부터 불러올 수 있으며, @lru_cache 를 아무 함수 위에 선언하면 사용하면 그 함수에 넘어온 인자를 키(key)로 그리고 함수의 호출 결과를 값(value)으로 LRU캐싱이 적용된다.
 <br>
 <br>
 
 2. **database.py**
+<br>
+
 <script src="https://gist.github.com/liampoet/ba25801f94f48afd1549c81a067be4f3.js"></script>
+<br>
+
 **sqlalchemy** :<br>
 - SQL 문법 없이 개발 중인 언어로 데이터베이스에 접근할 수 있게 해주는 라이브러를 **ORM(Object Relational Mapping)** 이라고 한다. 그 중에서도 **sqlalchemy**은 python의 대표적인 ORM이다.
 <br>
 <br>
 
 3. **model.py** 
+<br>
+
 <script src="https://gist.github.com/liampoet/28401f8a253f048b8be2665bbdcf68f0.js"></script>
 <br>
 <br>
 
 4. **route.py**
+<br>
+
 <script src="https://gist.github.com/liampoet/59c6d958cbc4e968ccf0b0634ccdabfd.js"></script><br>
+<br>
 
 이렇게만 설정을 해주면 간단하게 2개 이상의 DB를 연결할 수 있다.! 전체적인 코드는 아래 링크에서 확인할 수 있다.<br>
+<br>
 
 [https://github.com/liampoet/FastAPI-multiple_databases.git](https://github.com/liampoet/FastAPI-multiple_databases.git)
+
+<br>
+<br>
+<br>
 
 **[참고자료]**
 - [https://blog.neonkid.xyz/253](https://blog.neonkid.xyz/253)
