@@ -45,7 +45,7 @@ var RegExpJS = "<script[^>]*>(.*?)</script>";  -- 스크립트 제거
 
 ## 📚 [id^=]사용하기
 
-### id가 id_로 시작하는 엘리먼트들 접근
+### 📗 1.id가 id_로 시작하는 엘리먼트들 접근
 
 ***Html***
 
@@ -55,7 +55,7 @@ var RegExpJS = "<script[^>]*>(.*?)</script>";  -- 스크립트 제거
 
 <script src="https://gist.github.com/liampoet/d84a856ed2ecb8775d0ad690581e5a72.js"></script>
 
-### id가 id_로 끝나는 엘리먼트들 접근
+### 📕 2.id가 id_로 끝나는 엘리먼트들 접근
 
 ***Html***
 
