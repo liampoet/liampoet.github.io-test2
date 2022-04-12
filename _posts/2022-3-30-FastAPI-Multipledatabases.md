@@ -12,7 +12,7 @@ Multipledatabases에 대해 다양한분들의 의견이 잘 정리되어있어�
 
 <br>
 <br>
-## 🌩 그전에! FastAPI란? 
+## 🔎 그전에! FastAPI란? 
 ---------------------------------------
 [공식 문서](https://fastapi.tiangolo.com/)에는 다음과 같이 설명되어져있다.
 
@@ -31,7 +31,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 이 뿐만아니라, 현재 아직 많은 레퍼런스가 나와있지는 않지만, 그것을 매꿔줄 매우매우 수준높은 공식문서가 잘 마련되어져있다. 또한 백엔드 엔지니어 입장에서 API를 사용할 수 있도록 만든 문서 작업이 생각보다 많은 시간이 소요되는데, FastAPI는 문서의 자동화를 제공해줌으로써 개발자가 문서 작업에 할애하는 시간을 줄이고, 오직 코드에만 집중하도록 해 업무 효율을 증진 시켜준다!
 <br>
 <br>
-## 🌩 Multiple databases 설정하기 
+## 📚 Multiple databases 설정하기 
 ---------------------------------------
 1. **settings.py**
 <script src="https://gist.github.com/liampoet/7db7cc280b3a03655e611a814a112062.js"></script>
