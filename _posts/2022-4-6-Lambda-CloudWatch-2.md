@@ -12,9 +12,9 @@ etc: Amazon EventBridge cron 설정하기
 <br>
 <br>
 
-## 🌩 Amazon EventBridge 규칙 생성하기
+## 📚 Amazon EventBridge 규칙 생성하기
 ---------------------------------------
-### 1. Amazon EventBridge 규칙 생성하기
+### 📗 1. Amazon EventBridge 규칙 생성하기
 
 AWS 홈페이지에서 Amazon EventBridge를 들어간다.
 
@@ -26,7 +26,7 @@ Amazon EventBridge에서 이벤트목록에 규칙을 들어가면 규칙생성�
 <br>
 <br>
 
-### 2. 규칙 세부 정보 설정하기
+### 📕 2. 규칙 세부 정보 설정하기
 
 ***1단계 - 규칙 세부 정보 정의***
 
