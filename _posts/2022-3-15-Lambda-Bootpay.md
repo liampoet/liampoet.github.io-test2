@@ -25,13 +25,13 @@ etc: BootPay는 무료로 서비스되는 결제검증API이다. 초기에 일�
 방금 말했다시피, 실제 결제가 이루어지지만 Client Side에서 언제든 변조된 데이터를 구현하신 서버로 보내 부정적인 방법으로 구매 완료 데이터를 보낼 수 있기 때문에,<br>
 결제검증은 필수로 하는것이 좋다고 Bootpay에서는 설명한다.
 
-### 1. Lambda layer생성
+### 📗 1. Lambda layer생성
 ![_config.yml]({{ site.baseurl }}/images/Lambda_layer.png)
 
 [Bootpay 결제검증 및 취소 모듈(python)](https://github.com/bootpay/server_python)을 다운 받은 뒤, Lambda layer를 생성해준다.
 <br>
 <br>
-### 2. Add a layer
+### 📕 2. Add a layer
 
 생성한 Bootpay layer를 Lambda함수에 추가해준다.
 
@@ -42,7 +42,7 @@ etc: BootPay는 무료로 서비스되는 결제검증API이다. 초기에 일�
 <script src="https://gist.github.com/liampoet/68ee37108f40218d4bb02569760f9770.js"></script>
 <br>
 <br>
-### 3. 검증코드 작성하기
+### 📘 3. 검증코드 작성하기
 <script src="https://gist.github.com/liampoet/1411491dd7db55df67987bb9327c4d15.js"></script>
 
 이것만 작성하면 매우 간단하게 결제 검증을 끝낼 수 있다.<br>
