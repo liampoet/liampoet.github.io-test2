@@ -18,13 +18,15 @@ etc: 나는 아직 MySQL초보이기 때문에, 여러 명령어를 사용해 �
 
 <br>
 
-***정규표현식 예제***
+페이징을 처리할 수 있는 쿼리인 OFFSET은 다음 포스팅에 자세히 다루어 보도록 하겠다.😀
 
 <br>
 <br>
 <br>
+
 
 **[참고자료]**
 - [https://zzang9ha.tistory.com/295](https://zzang9ha.tistory.com/295)
 - [https://extbrain.tistory.com/](https://extbrain.tistory.com/)
 - [https://pangtrue.tistory.com/170](https://pangtrue.tistory.com/170)
+
